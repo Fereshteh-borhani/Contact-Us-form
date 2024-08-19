@@ -1,0 +1,62 @@
+/* BEGIN Earthlight */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-ExtraLight.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+/* END Earthlight */
+
+/* BEGIN Light */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Light.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+/* END Light */
+
+/* BEGIN Regular */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+/* END Regular */
+
+/* BEGIN Normal */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+/* END Normal */
+
+/* BEGIN Semibold */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+/* END Semibold */
+
+/* BEGIN Bold */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+/* END Bold */
+
+/* BEGIN Extrabold */
+@font-face {
+  font-family: "Karla";
+  src: url("../fonts/Karla-ExtraBold.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+/* END Extrabold */

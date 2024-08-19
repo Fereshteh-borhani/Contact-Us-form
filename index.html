@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+
+    <title>Contact form</title>
+  </head>
+  <body>
+    <section class="container">
+      <div id="popup"><h3>Message Sent!</h3>
+      <p>Thanks for completing the form. We'll be in touch soon!</p></div>
+      <div class="form-space">
+        <div class="form">
+          <div class="form-content">
+            <h2 class="contact-us">Contact Us</h2>
+
+            <form id="contactForm">
+              <p class="form-field">
+                <label for="first_name">First Name <i>*</i></label>
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="First Name"
+                  autofocus
+                />
+                <span class="displayNone"></span>
+              </p>
+
+              <p class="form-field">
+                <label for="last-name">Last Name <i>*</i></label>
+                <input type="text" name="last-name" placeholder="Last Name" />
+                <span class="displayNone"></span>
+              </p>
+
+              <p class="form-field-email">
+                <label for="email">Email <i>*</i></label>
+                <input type="email" name="email" placeholder="Email" />
+                <span class="displayNone"></span>
+              </p>
+
+              <p class="form-field-query">
+                <label>Query Type <i>*</i></label>
+                <label class="input-label">
+                  <input type="radio" name="query" value="General Enquiry " />
+                  General Enquiry
+                </label>
+              </p>
+              <p class="form-field-query">
+                <label class="input-label top-margin">
+                  <input type="radio" name="query" value="Support Request" />
+                  Support Request
+                </label>
+              </p>
+              <span class="displayNone"></span>
+
+              <p class="form-field-message">
+                <label for="message">Message <i>*</i></label>
+                <textarea
+                  name="message"
+                  rows="5"
+                  id="message"
+                  placeholder="Write Message ..."
+                ></textarea>
+                <span class="displayNone"></span>
+              </p>
+
+              <p class="required-field">
+                <label for="required" class="required-box">
+                  <input type="checkbox" name="required" value="required" />
+                  I consent to being contacted by the team
+                  <i>*</i>
+                  <span class="displayNone"></span>
+                </label>
+              </p>
+
+              <p class="btn-field">
+                <button class="submit-button" type="submit">Submit</button>
+              </p>
+            </form>
+          </div>
+        </div>
+        <div class="answer">
+          <img src="./assets/images/img.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
